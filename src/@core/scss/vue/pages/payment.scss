@@ -1,0 +1,37 @@
+.payment-container {
+  height: auto;
+  width: 100%;
+  border-radius: 20px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+}
+.AddContainer {
+  display: flex;
+  justify-content: right;
+}
+.payment-list-container {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  height: auto;
+}
+.payment-list-item {
+  height: auto;
+  width: 80rem;
+}
+
+.headerMessage {
+  display: flex;
+  justify-content: center;
+}
+.table-container {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+}
+.hover-item:hover {
+  background-color: rgb(212, 22, 22);
+}
+.text-ref-modal {
+  font-size: xx-small;
+}
+.lower-checkbox {
+  text-align: center;
+}
