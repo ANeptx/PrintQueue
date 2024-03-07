@@ -48,6 +48,22 @@ export default [
     component: () => import('@/views/Printer.vue'),
   },
   {
+    path: '/pointsetting',
+    name: 'pointsetting',
+    component: () => import('@/views/PointSetting.vue'),
+  },
+  {
+    path: '/paymentsetting',
+    name: 'paymentsetting',
+    component: () => import('@/views/PaymentSetting.vue'),
+  },
+  {
+    path: '/paymentsetting/edit',
+    name: 'editsetting',
+    component: () => import('@/views/EditSetting.vue'),
+  },
+  
+  {
     path: '*',
     redirect: 'error-404',
   },

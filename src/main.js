@@ -45,8 +45,6 @@ moment.updateLocale('en', {
   },
 })
 
-
-Vue.config.productionTip = false
 new Vue({
   router,
   store,
